@@ -5,11 +5,18 @@ import { scaleOrdinal } from "d3-scale";
 import { schemeSet2 } from "d3-scale-chromatic";
 import { ManOutlined, WomanOutlined } from "@ant-design/icons";
 import StackedBarChart from "./StackedBarChart";
+import g_bills from "../grouped_bills_with_topics.json";
 
-const CantonDetails = ({ data }) => {
+const CantonDetails = ({ data, canton }) => {
   const num_national = data["num_bills_national"];
   const num_state = data["num_bills_state"];
   const num_sum = (num_national || 0) + (num_state || 0);
+  const bill_group = g_bills.find(
+    (d) =>
+      d.canton === canton &&
+      d.issue === data.issue &&
+      d.bill_year.toString() === data.year
+  );
 
   const colorScale = scaleOrdinal(schemeSet2).domain(
     data?.bill_data?.map((d) => d.label)
@@ -34,6 +41,7 @@ const CantonDetails = ({ data }) => {
 
   return (
     <section>
+      <p dangerouslySetInnerHTML={{ __html: bill_group?.analyzed_topics }} />
       <Descriptions layout="horizontal" items={items} />
       <TagList items={data?.bill_data} colorScale={colorScale} />
       <Divider orientation="left" style={{ color: "#ccc", fontSize: 14 }}>

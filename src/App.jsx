@@ -99,7 +99,7 @@ function App() {
         </section>
       </section>
 
-      <section style={{ display: "flex", margin: "0 50px" }}>
+      <section style={{ display: "flex", margin: "0 50px", gap: 50 }}>
         <ChoroplethMap data={mapData} onClick={setCanton} />
 
         <HorizontalBarChart
@@ -115,7 +115,9 @@ function App() {
           width="40%"
         >
           <h1>{canton?.name}</h1>
-          {drawerData && <CantonDetails data={drawerData} />}
+          {drawerData && (
+            <CantonDetails data={drawerData} canton={canton?.name} />
+          )}
         </Drawer>
       </section>
     </>
