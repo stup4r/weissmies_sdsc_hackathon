@@ -1,0 +1,56 @@
+.ant-dropdown-menu {
+  max-height: 450px;
+  overflow: auto;
+}
+
+.intro {
+  margin: 0 10vw;
+}
+
+.title {
+  margin: 10px 20px;
+  color: #333;
+}
+
+.desc {
+  margin: 10px 20px 20px 20px;
+  color: #888;
+}
+
+.dropdown {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dropText {
+  margin-top: 0;
+  width: 300px;
+  color: #aaa;
+}
+
+.config_container {
+  display: flex;
+  margin: 0 15vw;
+  gap: 100px;
+  align-items: flex-start;
+}
+.slider {
+  flex: 1;
+}
+
+@media screen and (max-width: 1300px) {
+  .config_container {
+    margin: 0 10px;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .config_container {
+    flex-direction: column;
+  }
+  .slider {
+    width: 80vw;
+  }
+}

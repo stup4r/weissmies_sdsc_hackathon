@@ -1,0 +1,114 @@
+{
+  "Gesundheit": {
+    "en": "Health",
+    "desc": "Issues related to healthcare services, public health policies, and medical infrastructure."
+  },
+  "Raumplanung und Wohnungswesen": {
+    "en": "Spatial Planning and Housing",
+    "desc": "Policies concerning urban development, housing regulations, and land use planning."
+  },
+  "Medien und Kommunikation": {
+    "en": "Media and Communication",
+    "desc": "Topics related to media regulation, telecommunications, and digital communication infrastructure."
+  },
+  "Landwirtschaft": {
+    "en": "Agriculture",
+    "desc": "Matters related to farming, food production, and agricultural policies."
+  },
+  "Kultur": {
+    "en": "Culture",
+    "desc": "Topics addressing cultural promotion, heritage preservation, and arts policy."
+  },
+  "Finanzwesen": {
+    "en": "Finance",
+    "desc": "Issues involving public finances, banking, and economic regulation."
+  },
+  "Wirtschaft": {
+    "en": "Economy",
+    "desc": "Broad economic policies including trade, industry, and labor markets."
+  },
+  "Recht Allgemein": {
+    "en": "General Law",
+    "desc": "Matters regarding general legal principles and the judicial system."
+  },
+  "Verkehr": {
+    "en": "Transport",
+    "desc": "Policies on public transport, infrastructure, and mobility."
+  },
+  "Parlament": {
+    "en": "Parliament",
+    "desc": "Issues concerning the functioning of the legislative body and parliamentary proceedings."
+  },
+  "Europapolitik": {
+    "en": "European Policy",
+    "desc": "Relations with European institutions and policies within the European context."
+  },
+  "Migration": {
+    "en": "Migration",
+    "desc": "Policies and regulations on immigration, asylum, and integration of migrants."
+  },
+  "Bildung": {
+    "en": "Education",
+    "desc": "Matters related to schools, universities, and educational policy."
+  },
+  "Staatspolitik": {
+    "en": "State Policy",
+    "desc": "Issues concerning governance, federalism, and state functions."
+  },
+  "Sicherheitspolitik": {
+    "en": "Security Policy",
+    "desc": "National security and defense-related policies."
+  },
+  "Umwelt": {
+    "en": "Environment",
+    "desc": "Policies on environmental protection, climate change, and sustainability."
+  },
+  "Soziale Fragen": {
+    "en": "Social Issues",
+    "desc": "Matters related to social justice, equality, and community welfare."
+  },
+  "Internationale Politik": {
+    "en": "International Politics",
+    "desc": "Foreign relations and international diplomatic matters."
+  },
+  "Energie": {
+    "en": "Energy",
+    "desc": "Policies on energy production, distribution, and sustainability."
+  },
+  "Wissenschaft und Forschung": {
+    "en": "Science and Research",
+    "desc": "Promotion and regulation of scientific research and innovation."
+  },
+  "Zivilrecht": {
+    "en": "Civil Law",
+    "desc": "Legal matters related to private law, including contracts and property rights."
+  },
+  "Menschenrechte": {
+    "en": "Human Rights",
+    "desc": "Issues surrounding the protection and promotion of fundamental human rights."
+  },
+  "Internationales Recht": {
+    "en": "International Law",
+    "desc": "Matters related to treaties, international legal standards, and agreements."
+  },
+  "Steuer": {
+    "en": "Tax",
+    "desc": "Policies concerning tax law, tax collection, and fiscal policy."
+  },
+  "Sozialer Schutz": {
+    "en": "Social Protection",
+    "desc": "Regulations on social security, welfare systems, and protection for vulnerable groups."
+  },
+  "Strafrecht": {
+    "en": "Criminal Law",
+    "desc": "Legal issues involving crime, law enforcement, and penal policies."
+  },
+  "Beschäftigung und Arbeit": {
+    "en": "Employment and Labor",
+    "desc": "Labor law, employment policies, and workplace rights."
+  },
+  "Gerichtswesen": {
+    "en": "Judiciary",
+    "desc": "Issues regarding the functioning and organization of courts and the justice system."
+  }
+}
