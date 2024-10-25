@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import { geoMercator, geoPath } from "d3-geo";
 import { scaleSequential } from "d3-scale";
-import { interpolateBlues } from "d3-scale-chromatic";
+import { interpolateReds } from "d3-scale-chromatic";
 import { select } from "d3-selection";
 import * as topojson from "topojson-client";
 import topology from "../ch-cantons.topojson.json";
@@ -45,7 +45,7 @@ const ChoroplethMap = ({ data, onClick }) => {
       meta: data.find((d) => d.name === canton.id)?.meta ?? null,
     }));
 
-    const colorScale = scaleSequential(interpolateBlues).domain(colorExtent);
+    const colorScale = scaleSequential(interpolateReds).domain(colorExtent);
     const cantonsGeoJSON = topojson.feature(topology, topology.objects.cantons);
 
     svg

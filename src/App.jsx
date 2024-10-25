@@ -61,9 +61,12 @@ function App() {
   return (
     <>
       <section className="intro">
-        <h1 className="title">Swiss Legislative Insights</h1>
-        <p className="desc">
-          The “Swiss Legislative Insights” dashboard offers an interactive way
+          <h1 className="title">
+            <span className="highlight">S</span>wiss <span className="highlight">L</span>egislative{' '} 
+            <span className="highlight">A</span>ctivity <span className="highlight">P</span>ortal
+          </h1>
+          <p className="desc">
+          The “Swiss Legislative Activity Portal” offers an interactive way
           to explore legislative activities across Switzerland. It allows users
           to select specific legislative topic and filter data by year. A map of
           Switzerland displays the normalized number of submitted bills across

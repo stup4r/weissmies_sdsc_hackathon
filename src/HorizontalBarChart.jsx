@@ -63,7 +63,7 @@ const HorizontalBarChart = ({
             .attr("height", y.bandwidth())
             .attr("x", 0)
             .attr("width", 0)
-            .attr("fill", "steelblue")
+            .attr("fill", "#ff6536")
             .call((enter) =>
               enter.transition().attr("width", (d) => x(d.value))
             ),
@@ -87,7 +87,7 @@ const HorizontalBarChart = ({
           .style("left", event.pageX + 10 + "px");
       })
       .on("mouseleave", function () {
-        select(this).attr("fill", "steelblue").attr("stroke-width", 0);
+        select(this).attr("fill", "#ff6536").attr("stroke-width", 0);
         tooltip.style("visibility", "hidden");
       })
       .on(

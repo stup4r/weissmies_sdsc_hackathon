@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+.highlight {
+  font-weight: bold;
+  color: red;
+}
+
 .dropText {
   margin-top: 0;
   width: 300px;
